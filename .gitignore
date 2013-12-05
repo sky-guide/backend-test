@@ -1,4 +1,7 @@
 build
+target
+node_modules
+out
 .gradle
 .classpath
 .project
@@ -6,5 +9,3 @@ build
 .idea
 *.iml
 *.log
-node_modules
-out
