@@ -46,12 +46,14 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
 
+    def seleniumVersion = "2.39.0"
     dependencies {
         test "org.gebish:geb-spock:0.9.2"
         // test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
         // test "org.gebish:geb-junit4:0.9.2"
 
-        test "org.seleniumhq.selenium:selenium-chrome-driver:2.32.0"
+        test "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
+        test "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
     }
 
     plugins {
