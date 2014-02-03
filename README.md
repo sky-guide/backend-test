@@ -24,12 +24,12 @@ The code and tests have been split over several files:
 
 Source Code:
 
-Page.groovy - (grails-app/domain/com/sky/test/Page.groovy)
-PageController.groovy - (grails-app/controllers/com/sky/test/PageController.groovy)
+* Page.groovy - (grails-app/domain/com/sky/test/Page.groovy)
+* PageController.groovy - (grails-app/controllers/com/sky/test/PageController.groovy)
 
 Test Code:
 
-BaseFunctionalSpec.groovy - (grails-app/domain/com/sky/test/BaseFunctionalSpec.groovy)
+* BaseFunctionalSpec.groovy - (grails-app/domain/com/sky/test/BaseFunctionalSpec.groovy)
 
 Views:
 The views can be found in grails-app/views
