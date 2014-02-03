@@ -7,18 +7,24 @@
 <body>
 <h1>Page Versions</h1>
 <table>
-    <tr>
-        <th>ID</th>
-        <th>NAME</th>
-        <th>SCHEDULE TIME</th>
-    </tr>
-    <g:each in="${pages}" var="page" status="index">
-        <tr class="page-item">
-            <td><strong>${page.id}</strong></td>
-            <td>${page.name}</td>
-            <td>${page.scheduleTime}</td>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>STATUS</th>
+            <th>SCHEDULE TIME</th>
         </tr>
-    </g:each>
+    </thead>
+    <tbody>
+        <g:each in="${pages}" var="page" status="index">
+            <tr class="page-item">
+                <td><strong>${page.id}</strong></td>
+                <td>${page.name}</td>
+                <td>${page.status}</td>
+                <td>${page.scheduleTime}</td>
+            </tr>
+        </g:each>
+    </tbody>
 </table>
 </body>
 </html>

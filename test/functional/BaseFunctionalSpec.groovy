@@ -29,16 +29,12 @@ class BaseFunctionalSpec extends GebReportingSpec {
         versions(0).id.text() == "1"
         versions(0).name.text() == "page one"
 
-        // TODO: expect these to be written by the interviewee
-//        versions(1).id.text() == "2"
-//        versions(1).name.text() == "page one"
-//        versions(2).id.text() == "3"
-//        versions(2).name.text() == "page one"
-//        versions(3).id.text() == "4"
-//        versions(3).name.text() == "page one"
+        // TODO: Improve test coverage
     }
 
-    def "when there is no live version and there are versions in the past and in the future, return most recent one in the past and its following versions"() {}
+    // TODO: Implement the following test
+    def "when there is a live version return the live version and all pages after it based on schedule time"() {}
 
-    def "when there is a live version return the live version and all its following versions"() {}
+    // TODO: Implement the following test
+    def "when there is no live version and there are versions in the past and in the future, return most recent one in the past and  all pages after it based on schedule time"() {}
 }

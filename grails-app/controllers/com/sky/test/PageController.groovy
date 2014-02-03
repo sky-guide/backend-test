@@ -9,6 +9,9 @@ class PageController {
 
     def show(String id) {
         def pages = Page.findAllByName(id)
+
+        // TODO: Implement filtering based on rules in README.md
+
         [pages: pages]
     }
 }
