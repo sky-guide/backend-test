@@ -1,15 +1,13 @@
-COGNITIVE IMPERATIVE APPLICATION
+# COGNITIVE IMPERATIVE APPLICATION
 
-OVERVIEW
---------
+## OVERVIEW
 
 Cognitive Imperative is a system provided by a company that allows editors of a CMS to create versions of a
 particular page and schedule them to go live at certain times. There is a requirement that the list view of a certain
 page should be filtered based on certain rules.
 
 
-TASK
-----
+## TASK
 
 Implement the filtering rules, defined below, that will ensure only the correct versions of a page are displayed on its
 versions page.
@@ -21,8 +19,7 @@ The versions page of a particular page should filter based on the following rule
   based on schedule time
 
 
-FILES
------
+## FILES
 
 The code and tests have been split over several files:
 
@@ -34,19 +31,17 @@ Test Code:
 BaseFunctionalSpec.groovy - (grails-app/domain/com/sky/test/BaseFunctionalSpec.groovy)
 
 Views:
-The views can be found in grails-app/domain
+The views can be found in grails-app/views
 
 Your solution is not limited to these files.
 
 
-INSTALLATION
-------------
+## INSTALLATION
 
 To run the application you will need to have Java installed.
 
 
-RUNNING THE APPLICATION
------------------------
+## RUNNING THE APPLICATION
 
 To run the application, navigate to the project folder and run the following command:
 
@@ -57,16 +52,14 @@ To run the application in test mode, navigate to the project folder and run the 
 ./grailsw test run-app
 
 
-HOW TO RUN THE TESTS
---------------------
+## HOW TO RUN THE TESTS
 
 To run the tests on the command line:
 
 ./grailsw test-app [unit:|integration:|functional:]
 
 
-THINGS TO THINK ABOUT
----------------------
+## THINGS TO THINK ABOUT
 
 Please bear in mind all the best practices you would normally employ when producing "done" production code:
 
@@ -75,7 +68,6 @@ Please bear in mind all the best practices you would normally employ when produc
 * Clean code
 
 
-YOUR SOLUTION
--------------
+## YOUR SOLUTION
 
 Once you have completed the test please create a pull request on our github page
