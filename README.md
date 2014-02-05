@@ -71,4 +71,4 @@ Please bear in mind all the best practices you would normally employ when produc
 
 ## YOUR SOLUTION
 
-Once you have completed the test please create a pull request on our github page
+Once you have completed the test please zip it and send it back.
