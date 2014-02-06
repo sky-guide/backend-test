@@ -1,7 +1,8 @@
 build
-target
 node_modules
 out
+target
+web-app/bower-components
 .gradle
 .classpath
 .project

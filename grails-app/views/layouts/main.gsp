@@ -9,14 +9,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><g:layoutTitle default="Cognitive Imperative"/></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
+
+        <script type="text/javascript" src="/bower_components/jquery/jquery.min.js"></script>
+
 		<g:layoutHead/>
-        <r:require modules="application-js, vendor-js"/>
-        <r:require modules="application-css"/>
-		<r:layoutResources />
 	</head>
 	<body>
         <g:layoutBody/>
-		<r:layoutResources />
 	</body>
 </html>
