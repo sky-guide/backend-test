@@ -12,5 +12,5 @@ run-app:
 test-app:
 	./grailsw test-app
 
-karma-test:
+test-app-js:
 	./node_modules/.bin/grunt karma
