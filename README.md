@@ -11,8 +11,8 @@ particular page and schedule them to go live at certain times.
 * Match design on /page/index and /page/show/[page_name] pages according to the image provided.
 * Make columns of the tables sortable.
  * We have provided two JSON feeds in order for easier integration of data into a JS app
-  * /page/show.json for all pages
-  * /page/show/[page_name].json for specific page versions
+   * /page/show.json for all pages
+   * /page/show/[page_name].json for specific page versions
 
 Preferably your solution should use AngularJS and SASS frameworks but this is not a hard requirement.
 
