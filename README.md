@@ -35,7 +35,7 @@ The code has been split over several files:
 **CSS/JS:**
 * Directories for CSS and JS can be found in web-app
 
-**JS Tests**
+**JS Tests:**
 * The blank js unit test file is located in web-app/test/spec
 
 Your solution is not limited to these files.
