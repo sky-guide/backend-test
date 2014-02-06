@@ -1,12 +1,12 @@
-# COGNITIVE IMPERATIVE APPLICATION
+# Cognitive Imperative Application
 
-## OVERVIEW
+## Overview
 
 Cognitive Imperative is a system provided by a company that allows editors of a CMS to create versions of a
 particular page and schedule them to go live at certain times.
 
 
-## TASK
+## Task
 
 * Implement the 'TODOs' in the /page/index and /page/show files (found in grails-app/views)
 * Make each data field sortable
@@ -19,7 +19,7 @@ We have provided two JSON feeds in order for easier integration of data into a J
 * /page/show.json for all pages
 * /page/show/[page_name].json for specific page versions
 
-## FILES
+## Files
 
 The code has been split over several files:
 
@@ -41,7 +41,7 @@ The code has been split over several files:
 Your solution is not limited to these files.
 
 
-## INSTALLATION
+## Installation
 
 To run the application you will need to have Java, Node.js, NPM installed.
 
@@ -52,21 +52,21 @@ npm install
 ./node_modules/.bin/bower install
 ````
 
-## RUNNING THE APPLICATION
+## Running The Application
 
 To run the application, navigate to the project folder and run the following command:
 ````
 ./grailsw run-app
 ````
 
-## HOW TO RUN THE TESTS
+## How To Run The Tests
 
 To run the tests on the command line:
 ````
 ./node_modules/.bin/grunt karma
 ````
 
-## THINGS TO THINK ABOUT
+## Things To Think About
 
 Please bear in mind all the best practices you would normally employ when producing "done" production code:
 
@@ -74,6 +74,6 @@ Please bear in mind all the best practices you would normally employ when produc
 * Testing
 * Clean code
 
-## YOUR SOLUTION
+## Your Solution
 
 Once you have completed the test please zip it and send it back.
