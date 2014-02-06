@@ -58,11 +58,18 @@ To run the application, navigate to the project folder and run the following com
 make run-app
 ````
 
-## How To Run The Tests
+## How To Run The Functional Tests
 
-To run the tests on the command line:
+To run the functional tests on the command line:
 ````
 make test-app
+````
+
+## How To Run The JS Tests
+
+To run the JS tests on the command line:
+````
+make karma-test
 ````
 
 ## Things To Think About
