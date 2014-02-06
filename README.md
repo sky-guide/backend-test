@@ -48,22 +48,21 @@ To run the application you will need to have Java, Node.js, NPM installed.
 Run following commands in project rood directory:
 
 ````
-npm install
-./node_modules/.bin/bower install
+make install
 ````
 
 ## Running The Application
 
 To run the application, navigate to the project folder and run the following command:
 ````
-./grailsw run-app
+make run-app
 ````
 
 ## How To Run The Tests
 
 To run the tests on the command line:
 ````
-./node_modules/.bin/grunt karma
+make test-app
 ````
 
 ## Things To Think About
