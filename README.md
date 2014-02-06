@@ -8,8 +8,11 @@ particular page and schedule them to go live at certain times.
 
 ## TASK
 
-Match design on /page/index and /page/show/[page_name] pages according to the image provided.
-Make columns of the tables sortable.
+* Match design on /page/index and /page/show/[page_name] pages according to the image provided.
+* Make columns of the tables sortable.
+ * We have provided two JSON feeds in order for easier integration of data into a JS app
+  * /page/show.json for all pages
+  * /page/show/[page_name].json for specific page versions
 
 Preferably your solution should use AngularJS and SASS frameworks but this is not a hard requirement.
 
@@ -17,7 +20,7 @@ Preferably your solution should use AngularJS and SASS frameworks but this is no
 
 The code has been split over several files:
 
-**Configuration**
+**Configuration:**
 
 * package.json
 * GruntFile.js
@@ -26,7 +29,7 @@ The code has been split over several files:
 **Views/HTML:**
 * The views can be found in grails-app/views
 
-**CSS/JS**
+**CSS/JS:**
 
 * Directories for CSS and JS can be found in the web-app directory
 
