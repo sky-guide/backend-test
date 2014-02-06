@@ -69,7 +69,7 @@ make test-app
 
 To run the JS tests on the command line:
 ````
-make karma-test
+make test-app-js
 ````
 
 ## Things To Think About
