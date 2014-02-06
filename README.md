@@ -8,13 +8,16 @@ particular page and schedule them to go live at certain times.
 
 ## TASK
 
-* Match design on /page/index and /page/show/[page_name] pages according to the image provided.
-* Make columns of the tables sortable.
- * We have provided two JSON feeds in order for easier integration of data into a JS app
-   * /page/show.json for all pages
-    * /page/show/[page_name].json for specific page versions
+* Implement the 'TODOs' in the /page/index and /page/show files (found in grails-app/views)
+* Make columns of the tables sortable
+* Match design of the implemented pages according to provided specifications
+* (Bonus) Implement the functional test provided in BaseFunctionalSpec.groovy
 
 Preferably your solution should use AngularJS and SASS frameworks but this is not a hard requirement.
+
+We have provided two JSON feeds in order for easier integration of data into a JS app:
+* /page/show.json for all pages
+* /page/show/[page_name].json for specific page versions
 
 ## FILES
 
@@ -30,9 +33,10 @@ The code has been split over several files:
 * The views can be found in grails-app/views
 
 **CSS/JS:**
+* Directories for CSS and JS can be found in web-app
 
-* Directories for CSS and JS can be found in the web-app directory
-
+**JS Tests**
+* The blank js unit test file is located in web-app/test/spec
 
 Your solution is not limited to these files.
 

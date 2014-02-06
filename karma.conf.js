@@ -7,7 +7,7 @@ module.exports = function (config) {
         files: [
             'bower_components/jquery/jquery.js',
             'scripts/**/*.js',
-            'test/**/*.js'
+            '../test/js/**/*.js'
         ],
 
         exclude: [],
