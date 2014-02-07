@@ -3,7 +3,7 @@
 ## Overview
 
 Cognitive Imperative is a system provided by a company that allows editors of a CMS to create versions of a
-particular page and schedule them to go live at certain times. There is a requirement that the list view of a certain
+particular page and schedule them to go live at certain times. There is a requirement that the list view of a given
 page should be filtered based on certain rules.
 
 
@@ -60,9 +60,9 @@ To run the tests on the command line:
 
 ## Things To Think About
 
-Please bear in mind all the best practices you would normally employ when producing "done" production code:
+Please bear in mind all the best practices you would normally employ when producing production code:
 
-* A well factored object-oriented solution
+* A well factored, object-oriented solution
 * Testing
 * Clean code
 
