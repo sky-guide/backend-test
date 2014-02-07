@@ -9,8 +9,9 @@ particular page and schedule them to go live at certain times.
 ## Task
 
 * Implement the 'TODOs' in the /page/index and /page/show files (found in grails-app/views)
-* Make each data field sortable
+* Make each data field sortable on the version page
 * Match design of the implemented pages according to provided specifications
+* Bonus: Pages should be responsive and work cross browser/device
 * Bonus: Implement the functional test provided in BaseFunctionalSpec.groovy
 
 Preferably your solution should use AngularJS and SASS frameworks but this is not a hard requirement.
