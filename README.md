@@ -42,6 +42,9 @@ The code has been split over several files:
 **JS Tests:**
 * The blank js unit test file is located in web-app/test/spec
 
+**Designs:**
+* The design specs are located in the design folder
+
 Your solution is not limited to these files.
 
 
