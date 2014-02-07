@@ -1,13 +1,13 @@
-# COGNITIVE IMPERATIVE APPLICATION
+# Cognitive Imperative Application
 
-## OVERVIEW
+## Overview
 
 Cognitive Imperative is a system provided by a company that allows editors of a CMS to create versions of a
 particular page and schedule them to go live at certain times. There is a requirement that the list view of a certain
 page should be filtered based on certain rules.
 
 
-## TASK
+## Task
 
 Implement the filtering rules, defined below, that will ensure only the correct versions of a page are displayed on its
 versions page.
@@ -17,8 +17,7 @@ The versions page of a particular page should filter based on the following rule
 * Pages with a 'Live' version should return the live page followed by all pages after it based on schedule time
 * Pages that do not have a 'Live' version should return the most recent page from the past followed by all pages after it based on schedule time
 
-
-## FILES
+## Files
 
 The code and tests have been split over several files:
 
@@ -37,12 +36,11 @@ The code and tests have been split over several files:
 Your solution is not limited to these files.
 
 
-## INSTALLATION
+## Installation
 
 To run the application you will need to have Java installed.
 
-
-## RUNNING THE APPLICATION
+## Running The Application
 
 To run the application, navigate to the project folder and run the following command:
 ````
@@ -53,14 +51,14 @@ To run the application in test mode, navigate to the project folder and run the 
 ./grailsw test run-app
 ````
 
-## HOW TO RUN THE TESTS
+## How To Run The Tests
 
 To run the tests on the command line:
 ````
 ./grailsw test-app [unit:|integration:|functional:]
 ````
 
-## THINGS TO THINK ABOUT
+## Things To Think About
 
 Please bear in mind all the best practices you would normally employ when producing "done" production code:
 
@@ -68,7 +66,8 @@ Please bear in mind all the best practices you would normally employ when produc
 * Testing
 * Clean code
 
+## Your Solution
 
-## YOUR SOLUTION
+Once you have completed the test please send us the link to your forked repo or zip it and send it back.
 
-Once you have completed the test please zip it and send it back.
+Please bear in mind that your solution will be visible to others, so you should delete your repo once we have reviewed it.
