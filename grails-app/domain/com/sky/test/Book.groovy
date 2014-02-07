@@ -1,6 +1,6 @@
 package com.sky.test
 
-class Page {
+class Book {
     int id
     String name
     String status

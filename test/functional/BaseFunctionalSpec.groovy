@@ -1,33 +1,32 @@
 import geb.spock.GebReportingSpec
-import pages.HomePage
-import pages.PageListPage
-import pages.PageVersionsPage
+import pages.BookListPage
+import pages.BookVersionsPage
 
 class BaseFunctionalSpec extends GebReportingSpec {
 
     def "all pages are returned"() {
         when:
-        to PageListPage
+        to BookListPage
 
         then:
         pages.size() == 3
 
         and:
-        pages(0).name.text() == "page one"
-        pages(1).name.text() == "page two"
-        pages(2).name.text() == "page three"
+        pages(0).name.text() == "book one"
+        pages(1).name.text() == "book two"
+        pages(2).name.text() == "book three"
     }
 
     def "when there is no live version and all other versions are in the future, return all the versions"() {
         when:
-        to PageVersionsPage, "page one"
+        to BookVersionsPage, "book one"
 
         then:
         versions.size() == 4
 
         and:
         versions(0).id.text() == "1"
-        versions(0).name.text() == "page one"
+        versions(0).name.text() == "book one"
 
         // TODO: Improve test coverage
     }

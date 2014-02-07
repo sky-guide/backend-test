@@ -2,7 +2,7 @@ package modules
 
 import geb.Module
 
-class PageListItemModule extends Module {
+class BookListItemModule extends Module {
 
     static content = {
         id { $('td')[0] }

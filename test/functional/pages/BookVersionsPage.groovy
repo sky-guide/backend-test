@@ -1,16 +1,16 @@
 package pages
 
 import geb.Page
-import modules.PageListItemModule
+import modules.BookListItemModule
 
 import static java.net.URLEncoder.encode
 
-class PageVersionsPage extends Page {
-    static url = "/page/show"
-    static at = { title == "Page Versions" }
+class BookVersionsPage extends Page {
+    static url = "/book/show"
+    static at = { title == "Book Versions" }
 
     static content = {
-        versions { index -> moduleList PageListItemModule, $('.page-item'), index}
+        versions { index -> moduleList BookListItemModule, $('.book-item'), index}
     }
 
     @Override

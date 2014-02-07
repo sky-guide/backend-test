@@ -6,6 +6,6 @@
 	</head>
 	<body>
         <p>Welcome...</p>
-        <g:link controller="page">View pages</g:link>
+        <g:link controller="book">View books</g:link>
 	</body>
 </html>

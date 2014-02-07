@@ -3,12 +3,12 @@
 ## Overview
 
 Cognitive Imperative is a system provided by a company that allows editors of a CMS to create versions of a
-particular page and schedule them to go live at certain times.
+particular book and schedule them to go live at certain times.
 
 
 ## Task
 
-* Implement the 'TODOs' in the /page/index and /page/show files (found in grails-app/views)
+* Implement the 'TODOs' in the /book/index and /book/show files (found in grails-app/views)
 * Make each data field sortable on the version page
 * Match design of the implemented pages according to provided specifications
 * Bonus: Pages should be responsive and work cross browser/device
@@ -17,12 +17,12 @@ particular page and schedule them to go live at certain times.
 Preferably your solution should use AngularJS and SASS frameworks but this is not a hard requirement.
 
 We have provided two JSON feeds in order for easier integration of data into a JS app:
-* /page.json for all pages
-* /page/show/[page_name].json for specific page versions
+* /book.json for all books
+* /book/show/[book_name].json for specific book versions
 
 The two URLs to the pages to be styled are:
-* /page for all pages
-* /page/show/[page_name] for specific page versions
+* /book for all books
+* /book/show/[book_name] for specific book versions
 
 ## Files
 
@@ -41,7 +41,10 @@ The code has been split over several files:
 * Directories for CSS and JS can be found in web-app
 
 **JS Tests:**
-* The blank js unit test file is located in web-app/test/spec
+* The blank js unit test file is located in test/js/spec
+
+**Functional Test:**
+* The functional test file is located in test/functional
 
 **Designs:**
 * The design specs are located in the design folder
