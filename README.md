@@ -19,6 +19,10 @@ We have provided two JSON feeds in order for easier integration of data into a J
 * /page.json for all pages
 * /page/show/[page_name].json for specific page versions
 
+The two URLs to the pages to be styled are:
+* /page for all pages
+* /page/show/[page_name] for specific page versions
+
 ## Files
 
 The code has been split over several files:
