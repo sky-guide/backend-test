@@ -45,7 +45,7 @@ Your solution is not limited to these files.
 
 To run the application you will need to have Java, Node.js, NPM installed.
 
-Run following commands in project rood directory:
+Run the following commands in project root directory:
 
 ````
 make install
@@ -74,12 +74,13 @@ make test-app-js
 
 ## Things To Think About
 
-Please bear in mind all the best practices you would normally employ when producing "done" production code:
+Please bear in mind all the best practices you would normally employ when producing production code:
 
-* A well factored simple solution
+* A well factored, simple solution
 * Testing
 * Clean code
 
 ## Your Solution
 
-Once you have completed the test please zip it and send it back.
+Once you have completed the test please send us the link to your forked repo or zip it and send it back.
+Please bear in mind that your solution will be visible to others, so you should delete your repo once we have reviewed it.
