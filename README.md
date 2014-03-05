@@ -68,6 +68,6 @@ Please bear in mind all the best practices you would normally employ when produc
 
 ## Your Solution
 
-Once you have completed the test please send us the link to your forked repo or zip it and send it back.
+Once you have completed the test please send us the link to your forked repo.
 
 Please bear in mind that your solution will be visible to others, so you should delete your repo once we have reviewed it.
