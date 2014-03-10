@@ -44,18 +44,18 @@ To run the application you will need to have Java installed.
 
 To run the application, navigate to the project folder and run the following command:
 ````
-./grailsw run-app
+make run-app
 ````
 To run the application in test mode, navigate to the project folder and run the following command:
 ````
-./grailsw test run-app
+make run-app-test
 ````
 
 ## How To Run The Tests
 
 To run the tests on the command line:
 ````
-./grailsw test-app [unit:|integration:|functional:]
+make test-app[-[unit|integration|functional]]
 ````
 
 ## Things To Think About
