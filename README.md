@@ -55,7 +55,7 @@ make run-app-test
 
 To run the tests on the command line:
 ````
-make test-app-[unit|integration|functional]
+make test-app[-[unit|integration|functional]]
 ````
 
 ## Things To Think About
