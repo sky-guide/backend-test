@@ -14,8 +14,8 @@ versions page.
 
 The versions page of a particular page should filter based on the following rules:
 
-* Pages with a 'Live' version should return the live page followed by all pages after it based on schedule time
-* Pages that do not have a 'Live' version should return the most recent page from the past followed by all pages after it based on schedule time
+* Pages with a 'live' version should return the live page followed by all future pages, based on schedule time.
+* Pages that do not have a 'live' version should return the most recent page from the past followed by all pages after it based on schedule time.
 
 ## Files
 
